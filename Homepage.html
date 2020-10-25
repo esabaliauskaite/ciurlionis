@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="HomepageStyle.css">
+    <title>M. K. Čiurlionis</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light">
+      <a class="navbar-brand" href="Homepage.html"><img src="logo.png" alt="Logo" class="logo"></a>
+      <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item vnav"><a class="nav-link" href="Biografija.html"><p class="navp">Biografija</p></a></li>
+            <li class="nav-item vnav"><a class="nav-link" href="Kūryba.html"><p class="navp">Kūryba</p></a></li>
+            <li class="nav-item vnav"><a class="nav-link" href="Atminimas.html"><p class="navp">Atminimas</p></a></li>   
+          </ul>
+      </div> 
+      </nav>
+    </header>
+    <img src="homepageimage.png" atl="" class="img-fluid logo">
+    <br>
+    <br>
+    <br>
+    <footer class="row justify-content-center">
+      <p class="text-center">© Eglė Sabaliauskaitė Vilniaus Gedimino technikos universitetas 2018-05-18 </p>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script>
+    $(function(){
+      $('a').each(function() {
+        if ($(this).prop('href') == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+    });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="HomepageStyle.css">
+<title>Kūryba</title>
+</head>
+  <body>
+  <header>
+    <nav class="navbar navbar-expand-md  navbar-light">
+   <a class="navbar-brand" href="Homepage.html"><img src="logo.png" alt="Logo" class="logo"></a>
+    <button class="navbar-toggler btn" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item vnav"><a class="nav-link" href="Biografija.html"><p class="navp">Biografija</p></a></li>
+          <li class="nav-item vnav"><a class="nav-link" href="Kūryba.html"><p class="navp">Kūryba</p></a></li>
+          <li class="nav-item vnav"><a class="nav-link" href="Atminimas.html"><p class="navp">Atminimas</p></a></li>   
+        </ul>
+    </div> 
+    </nav>
+    <ul class="breadcrumb">
+      <li><a href="Homepage.html">Pagrindinis</a></li>
+      <li>Kūryba</li>
+    </ul>
+  </header>
+   <h1 class="row justify-content-center">KŪRYBA</h1>
+   <br>
+   <span class="kspan" >
+    <div class="rnav">
+      <nav class="kuryba navbar">
+        <ul class="navbar-nav" id="kurybanav">
+          <a class="navbar-brand">Kūrybos sritys</a>
+          <li class="nav-item justify-content-center"><a class="nav-link" href="Dailė.html" >Dailė</a></li>
+          <li class="nav-item justify-content-center"><a class="nav-link" href="Muzika.html">Muzika</a></li>
+          <li class="nav-item justify-content-center"><a class="nav-link" href="Literatūra.html">Literatūra</a></li>
+          <li class="nav-item justify-content-center"><a class="nav-link" href="Grafika.html">Grafika</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="kuriniuinfo">
+      <p> Savo kūrybinių ieškojimų įvairiapusiškumu M. K. Čiurlionis gali būti prilyginamas renesanso meistrams. Per vos dešimt metų trukusį kūrybos kelią jis sukūrė apie keturis šimtus muzikos kūrinių, tarp jų dvi stambias simfonines poemas, uvertiūrą, kantatą chorui ir orkestrui, dvi sonatas ir kelis variacijų ciklus fortepijonui, styginių kvartetą, kūrinius chorui. Tuo pat metu, per vos šešerius metus trukusį tapytojo kelią, jis nutapė daugiau nei tris šimtus paveikslų, sukūrė nemažai grafikos darbų, be to, paliko literatūros ir poezijos kūrinių, reiškėsi publicistikoje, eksperimentavo meninėje fotografijoje. Jo užrašų sąsiuviniai iš studijų Varšuvos muzikos institute laikų atskleidžia domėjimąsi geologija ir istorija, chemija ir geometrija, fizika ir astronomija, astrologija ir senovine mitologija, senosiomis ir moderniomis kalbomis, klasikine ir naująja filosofija, rytų ir vakarų religijomis.Antra vertus, M. K. Čiurlionio įsitraukimas į Lietuvos tautinio atgimimo judėjimą ir idealistinis aukojimasis meno idealų vardan pristato jį kaip tipišką romantizmo epochos kūrėją. Per trumpą, vos dvejus metus trukusį, gyvenimo Vilniuje tarpsnį M. K. Čiurlionis vadovavo kuriant Lietuvos meno kūrėjų draugiją, aktyviai prisidėjo rengiant tris pirmąsias lietuvių dailininkų parodas ir jose eksponavo daugelį savo paveikslų. Taip pat organizavo ir vadovavo lietuviškiems chorams Varšuvoje, Vilniuje ir Sankt Peterburge, buvo pirmasis profesionalus Lietuvos kompozitorius, taip nuoširdžiai susidomėjęs lietuvių liaudies dainomis – ne tik jas harmonizavo, naudojo jų melodiką savo originaliuose kūriniuose, bet ir rinko jas, analizavo jų savybes publicistikos straipsniuose. Bene tiksliausiai jo aistringą santykį su gyvenimu ir kūryba apibūdina M. K. Čiurlionio atsisakymas priimti saugią dėstytojo vietą Varšuvos muzikos institute ir broliui Povilui laiške išsakytas apsisprendimas „visus savo esamus ir būsimus darbus skirti Lietuvai“.</p>
+      <div class="dbiosaltinis"><p class="biosaltinis" style="text-align: right;">Rokas Zubovas<br>Šaltinis: &nbsp;<a target="_blank" href="http://ciurlionis.eu/lt/">M.K.Čiurlionis</a></p></div>
+    </div>
+  </span>
+<br>
+<br>
+   <div class="datgal"><a href="Homepage.html" class="atgal btn btn-lg active" role="button" aria-pressed="true">Grįžti</a></div>
+<br>
+<br>
+  <footer class="row justify-content-center">
+    <p class="text-center">© Eglė Sabaliauskaitė Vilniaus Gedimino technikos universitetas 2018-05-18 </p>
+  </footer>
+  <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+  <script>
+  $(function(){
+    $('a').each(function() {
+      if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+      }
+    });
+  });
+  </script>
+</body>
+
+</html>
